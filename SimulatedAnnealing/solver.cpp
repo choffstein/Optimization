@@ -18,7 +18,8 @@ namespace Optimization {
 				   double temperature = 10.0, 
 				   double cost = 0.999,
 				   int max_iterations = 10000,
-				   int step_size = 10) {
+				   int step_size = 10,
+				   bool verbose = true) {
 			
 			//initialize our random number generator
 			srand(time(NULL));
@@ -36,10 +37,11 @@ namespace Optimization {
 				
 				if (new_energy < best_energy) {
 					
-					 std::cout << "Iteration " << current_iteration << ": ";
-					 std::cout << new_energy << std::endl;
-					 new_state->pretty_print();
-					
+					 if(verbose) {
+						 std::cout << "Iteration " << current_iteration << ": ";
+						 std::cout << new_energy << std::endl;
+						 new_state->pretty_print();
+					 }
 					
 					best_state = new_state;
 					best_energy = new_energy;

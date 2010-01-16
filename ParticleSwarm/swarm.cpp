@@ -9,6 +9,7 @@
 
 #include "swarm.h"
 #include <boost/bind.hpp>
+#include <boost/foreach.hpp>
 
 #include <iostream>
 
@@ -41,10 +42,11 @@ namespace Optimization {
 			
 			int current_iteration = 0;
 			while(current_iteration < max_iterations) {
-				std::vector<fly_ptr>::iterator it = flies.begin();
-				for(it; it != flies.end(); it++) {
-					(*it)->update_position(global_best_features);
+				
+				BOOST_FOREACH( fly_ptr f, flies ) {
+					f->update_position(global_best_features);
 				}
+		
 				
 				std::vector<std::pair<float, fly_ptr> > population_fitness(swarm_size);
 				
