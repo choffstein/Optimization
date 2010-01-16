@@ -1,0 +1,124 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = 6102858811022CC2005A5DA4 /* n-Queens */;
+		activeTarget = 8DD76F620486A84900D96B5E /* n-Queens */;
+		addToTargets = (
+			8DD76F620486A84900D96B5E /* n-Queens */,
+		);
+		codeSenseManager = 6102858E11022CC5005A5DA4 /* Code sense */;
+		executables = (
+			6102858811022CC2005A5DA4 /* n-Queens */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					364,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 285355202;
+			PBXWorkspaceStateSaveDate = 285355202;
+		};
+		perUserProjectItems = {
+			610285A211022D2C005A5DA4 /* XCBuildMessageTextBookmark */ = 610285A211022D2C005A5DA4 /* XCBuildMessageTextBookmark */;
+			610285A311022D2C005A5DA4 /* PBXTextBookmark */ = 610285A311022D2C005A5DA4 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 6102858D11022CC5005A5DA4 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	6102858811022CC2005A5DA4 /* n-Queens */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "n-Queens";
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	6102858D11022CC5005A5DA4 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	6102858E11022CC5005A5DA4 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	6102859311022CCF005A5DA4 /* state.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {542, 576}}";
+			sepNavSelRange = "{212, 0}";
+			sepNavVisRange = "{173, 129}";
+		};
+	};
+	610285A211022D2C005A5DA4 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Boost/shared_ptr.hpp: No such file or directory";
+		fRef = 6102859311022CCF005A5DA4 /* state.h */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 13;
+		rType = 1;
+	};
+	610285A311022D2C005A5DA4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6102859311022CCF005A5DA4 /* state.h */;
+		name = "state.h: 14";
+		rLen = 0;
+		rLoc = 212;
+		rType = 0;
+		vrLen = 129;
+		vrLoc = 173;
+	};
+	8DD76F620486A84900D96B5E /* n-Queens */ = {
+		activeExec = 0;
+		executables = (
+			6102858811022CC2005A5DA4 /* n-Queens */,
+		);
+	};
+}
