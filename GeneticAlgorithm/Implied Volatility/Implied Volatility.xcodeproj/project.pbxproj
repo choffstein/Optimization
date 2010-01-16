@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6102852311022C04005A5DA4 /* implied_volatility.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6102852111022C04005A5DA4 /* implied_volatility.cpp */; };
+		619B84A2110231EB00B61F71 /* implied_volatility.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 619B84A1110231EB00B61F71 /* implied_volatility.cpp */; };
 		8DD76F6A0486A84900D96B5E /* Implied Volatility.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859E8B029090EE04C91782 /* Implied Volatility.1 */; };
 /* End PBXBuildFile section */
 
@@ -27,8 +27,8 @@
 /* Begin PBXFileReference section */
 		6102851F11022C04005A5DA4 /* chromosome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = chromosome.h; path = ../chromosome.h; sourceTree = SOURCE_ROOT; };
 		6102852011022C04005A5DA4 /* evolvable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = evolvable.h; path = ../evolvable.h; sourceTree = SOURCE_ROOT; };
-		6102852111022C04005A5DA4 /* implied_volatility.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = implied_volatility.cpp; path = ../implied_volatility.cpp; sourceTree = SOURCE_ROOT; };
 		6102852211022C04005A5DA4 /* population.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = population.h; path = ../population.h; sourceTree = SOURCE_ROOT; };
+		619B84A1110231EB00B61F71 /* implied_volatility.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = implied_volatility.cpp; sourceTree = "<group>"; };
 		8DD76F6C0486A84900D96B5E /* Implied Volatility */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Implied Volatility"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6859E8B029090EE04C91782 /* Implied Volatility.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = "Implied Volatility.1"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -59,8 +59,8 @@
 			children = (
 				6102851F11022C04005A5DA4 /* chromosome.h */,
 				6102852011022C04005A5DA4 /* evolvable.h */,
-				6102852111022C04005A5DA4 /* implied_volatility.cpp */,
 				6102852211022C04005A5DA4 /* population.h */,
+				619B84A1110231EB00B61F71 /* implied_volatility.cpp */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -124,7 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6102852311022C04005A5DA4 /* implied_volatility.cpp in Sources */,
+				619B84A2110231EB00B61F71 /* implied_volatility.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

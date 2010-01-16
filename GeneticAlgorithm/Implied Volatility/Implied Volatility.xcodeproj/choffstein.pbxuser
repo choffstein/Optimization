@@ -17,7 +17,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					364,
+					830,
 					20,
 					48,
 					43,
@@ -34,8 +34,13 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 285355435;
-			PBXWorkspaceStateSaveDate = 285355435;
+			PBXPerProjectTemplateStateSaveDate = 285357382;
+			PBXWorkspaceStateSaveDate = 285357382;
+		};
+		perUserProjectItems = {
+			619B84DE1102356900B61F71 /* PBXTextBookmark */ = 619B84DE1102356900B61F71 /* PBXTextBookmark */;
+			619B84DF1102356900B61F71 /* PBXTextBookmark */ = 619B84DF1102356900B61F71 /* PBXTextBookmark */;
+			619B84E01102356900B61F71 /* PBXTextBookmark */ = 619B84E01102356900B61F71 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 6102851C11022BF9005A5DA4 /* Source Control */;
 		userBuildSettings = {
@@ -84,6 +89,50 @@
 	6102851D11022BF9005A5DA4 /* Code sense */ = {
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
+	};
+	6102851F11022C04005A5DA4 /* chromosome.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1008, 2000}}";
+			sepNavSelRange = "{2648, 0}";
+			sepNavVisRange = "{2415, 640}";
+		};
+	};
+	6102852211022C04005A5DA4 /* population.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1008, 3696}}";
+			sepNavSelRange = "{266, 0}";
+			sepNavVisRange = "{407, 635}";
+		};
+	};
+	619B84DE1102356900B61F71 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6102852211022C04005A5DA4 /* population.h */;
+		name = "population.h: 15";
+		rLen = 0;
+		rLoc = 266;
+		rType = 0;
+		vrLen = 635;
+		vrLoc = 407;
+	};
+	619B84DF1102356900B61F71 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6102851F11022C04005A5DA4 /* chromosome.h */;
+		name = "chromosome.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 317;
+		vrLoc = 0;
+	};
+	619B84E01102356900B61F71 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6102851F11022C04005A5DA4 /* chromosome.h */;
+		name = "chromosome.h: 82";
+		rLen = 0;
+		rLoc = 2648;
+		rType = 0;
+		vrLen = 640;
+		vrLoc = 2415;
 	};
 	8DD76F620486A84900D96B5E /* Implied Volatility */ = {
 		activeExec = 0;

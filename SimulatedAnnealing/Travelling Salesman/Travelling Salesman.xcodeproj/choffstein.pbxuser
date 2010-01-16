@@ -17,7 +17,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					364,
+					830,
 					20,
 					48,
 					43,
@@ -34,8 +34,13 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 285355311;
-			PBXWorkspaceStateSaveDate = 285355311;
+			PBXPerProjectTemplateStateSaveDate = 285358694;
+			PBXWorkspaceStateSaveDate = 285358694;
+		};
+		perUserProjectItems = {
+			6184B5F211023AEF002CCF8E /* PBXTextBookmark */ = 6184B5F211023AEF002CCF8E /* PBXTextBookmark */;
+			619B84EB110236CC00B61F71 /* PBXTextBookmark */ = 619B84EB110236CC00B61F71 /* PBXTextBookmark */;
+			619B84ED110236CC00B61F71 /* PBXTextBookmark */ = 619B84ED110236CC00B61F71 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 6102856A11022C9B005A5DA4 /* Source Control */;
 		userBuildSettings = {
@@ -84,6 +89,50 @@
 	6102856B11022C9B005A5DA4 /* Code sense */ = {
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
+	};
+	6102856D11022CA4005A5DA4 /* solver.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1008, 1008}}";
+			sepNavSelRange = "{1123, 0}";
+			sepNavVisRange = "{668, 635}";
+		};
+	};
+	6102856F11022CA4005A5DA4 /* state.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1008, 592}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{270, 314}";
+		};
+	};
+	6184B5F211023AEF002CCF8E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6102856D11022CA4005A5DA4 /* solver.cpp */;
+		name = "solver.cpp: 42";
+		rLen = 0;
+		rLoc = 1123;
+		rType = 0;
+		vrLen = 635;
+		vrLoc = 668;
+	};
+	619B84EB110236CC00B61F71 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6102856F11022CA4005A5DA4 /* state.h */;
+		name = "state.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 314;
+		vrLoc = 270;
+	};
+	619B84ED110236CC00B61F71 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6102856D11022CA4005A5DA4 /* solver.cpp */;
+		name = "solver.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 455;
+		vrLoc = 1114;
 	};
 	8DD76F620486A84900D96B5E /* Travelling Salesman */ = {
 		activeExec = 0;

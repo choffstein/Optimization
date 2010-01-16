@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6102857111022CA4005A5DA4 /* solver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6102856D11022CA4005A5DA4 /* solver.cpp */; };
-		6102857211022CA4005A5DA4 /* travelling_sales_man.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6102857011022CA4005A5DA4 /* travelling_sales_man.cpp */; };
+		619B84D41102323B00B61F71 /* travelling_salesman.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 619B84D31102323B00B61F71 /* travelling_salesman.cpp */; };
 		8DD76F6A0486A84900D96B5E /* Travelling Salesman.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859E8B029090EE04C91782 /* Travelling Salesman.1 */; };
 /* End PBXBuildFile section */
 
@@ -29,7 +29,7 @@
 		6102856D11022CA4005A5DA4 /* solver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = solver.cpp; path = ../solver.cpp; sourceTree = SOURCE_ROOT; };
 		6102856E11022CA4005A5DA4 /* solver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = solver.h; path = ../solver.h; sourceTree = SOURCE_ROOT; };
 		6102856F11022CA4005A5DA4 /* state.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = state.h; path = ../state.h; sourceTree = SOURCE_ROOT; };
-		6102857011022CA4005A5DA4 /* travelling_sales_man.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = travelling_sales_man.cpp; path = ../travelling_sales_man.cpp; sourceTree = SOURCE_ROOT; };
+		619B84D31102323B00B61F71 /* travelling_salesman.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = travelling_salesman.cpp; sourceTree = "<group>"; };
 		8DD76F6C0486A84900D96B5E /* Travelling Salesman */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Travelling Salesman"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6859E8B029090EE04C91782 /* Travelling Salesman.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = "Travelling Salesman.1"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -61,7 +61,7 @@
 				6102856D11022CA4005A5DA4 /* solver.cpp */,
 				6102856E11022CA4005A5DA4 /* solver.h */,
 				6102856F11022CA4005A5DA4 /* state.h */,
-				6102857011022CA4005A5DA4 /* travelling_sales_man.cpp */,
+				619B84D31102323B00B61F71 /* travelling_salesman.cpp */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -126,7 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6102857111022CA4005A5DA4 /* solver.cpp in Sources */,
-				6102857211022CA4005A5DA4 /* travelling_sales_man.cpp in Sources */,
+				619B84D41102323B00B61F71 /* travelling_salesman.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

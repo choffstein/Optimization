@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		610284FF11022BC2005A5DA4 /* fit_sentence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 610284FD11022BC2005A5DA4 /* fit_sentence.cpp */; };
+		61535D64110231D400A6734E /* fit_sentence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 61535D63110231D400A6734E /* fit_sentence.cpp */; };
 		8DD76F6A0486A84900D96B5E /* Fit Sentence.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859E8B029090EE04C91782 /* Fit Sentence.1 */; };
 /* End PBXBuildFile section */
 
@@ -27,8 +27,8 @@
 /* Begin PBXFileReference section */
 		610284FB11022BC2005A5DA4 /* chromosome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = chromosome.h; path = ../chromosome.h; sourceTree = SOURCE_ROOT; };
 		610284FC11022BC2005A5DA4 /* evolvable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = evolvable.h; path = ../evolvable.h; sourceTree = SOURCE_ROOT; };
-		610284FD11022BC2005A5DA4 /* fit_sentence.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fit_sentence.cpp; path = ../fit_sentence.cpp; sourceTree = SOURCE_ROOT; };
 		610284FE11022BC2005A5DA4 /* population.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = population.h; path = ../population.h; sourceTree = SOURCE_ROOT; };
+		61535D63110231D400A6734E /* fit_sentence.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fit_sentence.cpp; sourceTree = "<group>"; };
 		8DD76F6C0486A84900D96B5E /* Fit Sentence */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Fit Sentence"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6859E8B029090EE04C91782 /* Fit Sentence.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = "Fit Sentence.1"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -59,7 +59,7 @@
 			children = (
 				610284FB11022BC2005A5DA4 /* chromosome.h */,
 				610284FC11022BC2005A5DA4 /* evolvable.h */,
-				610284FD11022BC2005A5DA4 /* fit_sentence.cpp */,
+				61535D63110231D400A6734E /* fit_sentence.cpp */,
 				610284FE11022BC2005A5DA4 /* population.h */,
 			);
 			name = Source;
@@ -124,7 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				610284FF11022BC2005A5DA4 /* fit_sentence.cpp in Sources */,
+				61535D64110231D400A6734E /* fit_sentence.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

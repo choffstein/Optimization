@@ -305,8 +305,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -321,14 +319,6 @@
 										<string>6102850511022BEB005A5DA4</string>
 										<key>PBXProjectModuleLabel</key>
 										<string>fit_sentence.cpp</string>
-										<key>_historyCapacity</key>
-										<integer>0</integer>
-										<key>bookmark</key>
-										<string>610285F311022DA8005A5DA4</string>
-										<key>history</key>
-										<array>
-											<string>6102850711022BEB005A5DA4</string>
-										</array>
 									</dict>
 									<key>SplitCount</key>
 									<string>1</string>
@@ -341,21 +331,23 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {603, 267}}</string>
+								<string>{{0, 0}, {603, 259}}</string>
 								<key>RubberWindowFrame</key>
 								<string>376 122 810 487 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>267pt</string>
+							<string>259pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
-							<string>174pt</string>
+							<string>182pt</string>
 							<key>Tabs</key>
 							<array>
 								<dict>
+									<key>BecomeActive</key>
+									<true/>
 									<key>ContentConfiguration</key>
 									<dict>
 										<key>PBXProjectModuleGUID</key>
@@ -366,7 +358,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {603, 147}}</string>
+										<string>{{10, 27}, {603, 155}}</string>
 										<key>RubberWindowFrame</key>
 										<string>376 122 810 487 0 0 1280 778 </string>
 									</dict>
@@ -450,11 +442,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>610285E811022D99005A5DA4</string>
+				<string>61535D65110231D900A6734E</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>610285E911022D99005A5DA4</string>
+				<string>61535D66110231D900A6734E</string>
 				<string>6102850411022BEB005A5DA4</string>
-				<string>610285EA11022D99005A5DA4</string>
+				<string>61535D67110231D900A6734E</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -644,8 +636,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>610285F411022DA8005A5DA4</string>
-		<string>610285F511022DA8005A5DA4</string>
 		<string>/Users/choffstein/Documents/C++/optimization/GeneticAlgorithm/Fit Sentence/Fit Sentence.xcodeproj</string>
 	</array>
 	<key>WindowString</key>

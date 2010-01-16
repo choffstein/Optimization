@@ -22,7 +22,8 @@ namespace Optimization {
 												  int max_iterations,
 												  double inertia,
 												  double cognitive,
-												  double social) {
+												  double social,
+												  bool verbose=true) {
 			
 			
 			std::vector<fly_ptr> flies;
@@ -62,12 +63,14 @@ namespace Optimization {
 					feature_vector t = population_fitness[0].second->get_features();
 					std::copy(t.begin(), t.end(), global_best_features.begin());
 				
-					std::cout << current_iteration << ": ";
-					std::cout << global_best_fitness << ": ";
-					for(int i = 0; i < global_best_features.size(); i++) {
-						std::cout << global_best_features[i];
+					if(verbose) {
+						std::cout << current_iteration << ": ";
+						std::cout << global_best_fitness << ": ";
+						for(int i = 0; i < global_best_features.size(); i++) {
+							std::cout << global_best_features[i];
+						}
+						std::cout << std::endl;
 					}
-					std::cout << std::endl;
 				}
 				
 				current_iteration++;

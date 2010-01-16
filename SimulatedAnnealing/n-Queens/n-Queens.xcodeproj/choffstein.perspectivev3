@@ -321,10 +321,10 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>610285A311022D2C005A5DA4</string>
+										<string>619B84C51102321C00B61F71</string>
 										<key>history</key>
 										<array>
-											<string>610285A211022D2C005A5DA4</string>
+											<string>619B84C41102321C00B61F71</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -338,21 +338,23 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {603, 132}}</string>
+								<string>{{0, 0}, {603, 117}}</string>
 								<key>RubberWindowFrame</key>
 								<string>235 233 810 487 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>132pt</string>
+							<string>117pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
-							<string>309pt</string>
+							<string>324pt</string>
 							<key>Tabs</key>
 							<array>
 								<dict>
+									<key>BecomeActive</key>
+									<true/>
 									<key>ContentConfiguration</key>
 									<dict>
 										<key>PBXProjectModuleGUID</key>
@@ -363,7 +365,9 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {603, 414}}</string>
+										<string>{{10, 27}, {603, 297}}</string>
+										<key>RubberWindowFrame</key>
+										<string>235 233 810 487 0 0 1280 778 </string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -418,8 +422,6 @@
 									<dict>
 										<key>Frame</key>
 										<string>{{10, 27}, {603, 282}}</string>
-										<key>RubberWindowFrame</key>
-										<string>235 233 810 487 0 0 1280 778 </string>
 									</dict>
 									<key>Module</key>
 									<string>PBXBuildResultsModule</string>
@@ -447,11 +449,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>610285A411022D2C005A5DA4</string>
+				<string>619B84C61102321C00B61F71</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>610285A511022D2C005A5DA4</string>
+				<string>619B84C71102321C00B61F71</string>
 				<string>6102859A11022CF0005A5DA4</string>
-				<string>610285A611022D2C005A5DA4</string>
+				<string>619B84C81102321C00B61F71</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -641,8 +643,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>610285AD11022D2C005A5DA4</string>
-		<string>610285AE11022D2C005A5DA4</string>
 		<string>/Users/choffstein/Documents/C++/optimization/SimulatedAnnealing/n-Queens/n-Queens.xcodeproj</string>
 	</array>
 	<key>WindowString</key>

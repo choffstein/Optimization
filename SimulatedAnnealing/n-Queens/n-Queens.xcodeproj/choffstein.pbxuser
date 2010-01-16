@@ -19,7 +19,7 @@
 					20,
 					364,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 					20,
@@ -34,12 +34,12 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 285355202;
-			PBXWorkspaceStateSaveDate = 285355202;
+			PBXPerProjectTemplateStateSaveDate = 285356559;
+			PBXWorkspaceStateSaveDate = 285356559;
 		};
 		perUserProjectItems = {
-			610285A211022D2C005A5DA4 /* XCBuildMessageTextBookmark */ = 610285A211022D2C005A5DA4 /* XCBuildMessageTextBookmark */;
-			610285A311022D2C005A5DA4 /* PBXTextBookmark */ = 610285A311022D2C005A5DA4 /* PBXTextBookmark */;
+			619B84C41102321C00B61F71 /* PBXTextBookmark */ = 619B84C41102321C00B61F71 /* PBXTextBookmark */;
+			619B84C51102321C00B61F71 /* PBXTextBookmark */ = 619B84C51102321C00B61F71 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 6102858D11022CC5005A5DA4 /* Source Control */;
 		userBuildSettings = {
@@ -96,16 +96,17 @@
 			sepNavVisRange = "{173, 129}";
 		};
 	};
-	610285A211022D2C005A5DA4 /* XCBuildMessageTextBookmark */ = {
+	619B84C41102321C00B61F71 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		comments = "Boost/shared_ptr.hpp: No such file or directory";
 		fRef = 6102859311022CCF005A5DA4 /* state.h */;
-		fallbackIsa = XCBuildMessageTextBookmark;
-		rLen = 1;
-		rLoc = 13;
-		rType = 1;
+		name = "state.h: 14";
+		rLen = 0;
+		rLoc = 212;
+		rType = 0;
+		vrLen = 129;
+		vrLoc = 173;
 	};
-	610285A311022D2C005A5DA4 /* PBXTextBookmark */ = {
+	619B84C51102321C00B61F71 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 6102859311022CCF005A5DA4 /* state.h */;
 		name = "state.h: 14";

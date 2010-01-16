@@ -305,12 +305,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>6102853E11022C36005A5DA4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>implied_volatility.cpp</string>
+								<string>fly.cpp</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -318,15 +320,17 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>6102853F11022C36005A5DA4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>implied_volatility.cpp</string>
+										<string>fly.cpp</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>610285D211022D7E005A5DA4</string>
+										<string>619B84FD1102376D00B61F71</string>
 										<key>history</key>
 										<array>
 											<string>610285D011022D7E005A5DA4</string>
-											<string>610285D111022D7E005A5DA4</string>
+											<string>619B84FA1102376D00B61F71</string>
+											<string>619B84FB1102376D00B61F71</string>
+											<string>619B84FC1102376D00B61F71</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -340,23 +344,21 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1069, 358}}</string>
+								<string>{{0, 0}, {1069, 338}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 55 1276 723 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>358pt</string>
+							<string>338pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
-							<string>319pt</string>
+							<string>339pt</string>
 							<key>Tabs</key>
 							<array>
 								<dict>
-									<key>BecomeActive</key>
-									<true/>
 									<key>ContentConfiguration</key>
 									<dict>
 										<key>PBXProjectModuleGUID</key>
@@ -367,7 +369,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {1069, 292}}</string>
+										<string>{{10, 27}, {1069, 312}}</string>
 										<key>RubberWindowFrame</key>
 										<string>0 55 1276 723 0 0 1280 778 </string>
 									</dict>
@@ -451,11 +453,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>610285D311022D7E005A5DA4</string>
+				<string>619B84FE1102376D00B61F71</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>610285D411022D7E005A5DA4</string>
+				<string>619B84FF1102376D00B61F71</string>
 				<string>6102853E11022C36005A5DA4</string>
-				<string>610285D511022D7E005A5DA4</string>
+				<string>619B85001102376D00B61F71</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -604,14 +606,14 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>610285D611022D7E005A5DA4</string>
+				<string>619B85011102376D00B61F71</string>
 				<string>1CCC7628064C1048000F2A68</string>
 				<string>1CCC7629064C1048000F2A68</string>
-				<string>610285D711022D7E005A5DA4</string>
-				<string>610285D811022D7E005A5DA4</string>
-				<string>610285D911022D7E005A5DA4</string>
-				<string>610285DA11022D7E005A5DA4</string>
-				<string>610285DB11022D7E005A5DA4</string>
+				<string>619B85021102376D00B61F71</string>
+				<string>619B85031102376D00B61F71</string>
+				<string>619B85041102376D00B61F71</string>
+				<string>619B85051102376D00B61F71</string>
+				<string>619B85061102376D00B61F71</string>
 			</array>
 			<key>ToolbarConfigUserDefaultsMinorVersion</key>
 			<string>2</string>
@@ -645,8 +647,8 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>610285DC11022D7E005A5DA4</string>
-		<string>610285DD11022D7E005A5DA4</string>
+		<string>619B85071102376D00B61F71</string>
+		<string>619B85081102376D00B61F71</string>
 		<string>/Users/choffstein/Documents/C++/optimization/ParticleSwarm/Implied Volatility/Implied Volatility.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
