@@ -15,35 +15,53 @@
 #include <boost/shared_ptr.hpp>
 
 namespace Optimization {
+	namespace AntColony {
+		class Node;
+		typedef boost::shared_ptr<Node> node_ptr;
 		
-		template <class type> class Node;
-		
-		template <class type>
 		class Path {
 			
 		public:
-			typedef boost::shared_ptr<Path<type> > path_ptr;
-			
-			Path(typename Node<type>::node_ptr target, double cost) :
+			Path(node_ptr target, double cost, double initial_pheromones) :
+				_target(target),
 				_cost(cost),
-				_target(target) {
+				_pheromones(initial_pheromones),
+				_new_pheromones(0.0) {
 			}
 			
 			~Path() {}
 			
-			typename Node<type>::node_ptr get_target() const {
+			inline node_ptr get_target() const {
 				return _target;
 			}
 			
-			double get_cost() const {
+			inline double get_pheromones() const {
+				return _pheromones;
+			}
+			
+			inline void add_pheromones() {
+				_new_pheromones = _new_pheromones + 1;
+			}
+			
+			inline double get_cost() const {
 				return _cost;
 			}
 			
+			void update(double evaporation_rate) {
+				_pheromones = _pheromones * (1.0 - evaporation_rate);
+				_pheromones = _pheromones + _new_pheromones;
+				_new_pheromones = 0;
+			}
+			
 		private:
+			double _pheromones;
+			double _new_pheromones;
 			double _cost;
-			double _pheramones;
-			typename Node<type>::node_ptr _target;
+			node_ptr _target;
 		};
+		
+		typedef boost::shared_ptr<Path> path_ptr;
+	}
 }
 
 #endif

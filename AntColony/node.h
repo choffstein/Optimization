@@ -16,32 +16,33 @@
 #include <vector>
 
 namespace Optimization {
+	namespace AntColony {
+		class Path;
+		typedef boost::shared_ptr<Path> path_ptr;
 		
-		template <class type> class Path;
-		
-		template <class type>
 		class Node {
+		
+		public: 
+			Node() {}
 			
+			virtual ~Node() {}
 			
-		public:
-			typedef boost::shared_ptr<Node<type> > node_ptr;
+			virtual double get_desirability() const = 0;
 			
-			Node(type value) : _value(value) {}
-			
-			~Node() {}
-			
-			type get_value() const {
-				return _value;
-			}
-			
-			void add_connection(typename Path<type>::path_ptr connection) {
+			inline void add_connection(path_ptr connection) {
 				_connections.push_back(connection);
 			}
 			
+			inline const std::vector<path_ptr>& get_connections() const {
+				return _connections;
+			}
+			
 		private:
-			type _value;
-			std::vector<typename Path<type>::path_ptr> _connections;
+			std::vector<path_ptr> _connections;
 		};
+		
+		typedef boost::shared_ptr<Node> node_ptr;
+	}
 }
 
 #endif
