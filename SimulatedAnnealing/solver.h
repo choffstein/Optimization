@@ -18,7 +18,8 @@ namespace Optimization {
 										   double temperature, 
 										   double cost,
 										   int max_iterations,
-										   int step_size);
+										   int step_size,
+										   bool verbose);
 	}
 }
 

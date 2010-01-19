@@ -129,7 +129,7 @@ int main (int argc, char * const argv[]) {
 	srand ( time(NULL) );
 	
 	Optimization::SimulatedAnnealing::state_ptr initial_state(new BoardState(64));
-	std::pair<double, Optimization::SimulatedAnnealing::state_ptr> result = Optimization::SimulatedAnnealing::solve(initial_state, 30.0, 0.999, 1000000, 50); 
+	std::pair<double, Optimization::SimulatedAnnealing::state_ptr> result = Optimization::SimulatedAnnealing::solve(initial_state, 30.0, 0.999, 1000000, 50, true); 
 	
 	std::cout << result.first << std::endl;
 	result.second->pretty_print();

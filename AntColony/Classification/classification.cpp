@@ -61,15 +61,21 @@ public:
 	
 	void generate_desirability() {
 		std::vector<std::pair<int, int> >::iterator it = classifications.begin();
-		int sum = 0;
 		
+		int correct_classifications = 0;
+		int total_classifications = 0;
+		
+		//of those who ARE classified as what we want, how many match this
 		for(it; it != classifications.end(); it++) {
-			
-			if((*_scorer)(it->first) && it->second) 
-				sum = sum + 1;
+			if( (*_scorer)(it->first) ) {
+				if(it->second) {
+					correct_classifications = correct_classifications + 1;
+				}
+				total_classifications = total_classifications + 1;
+			}
 		}
 		
-		_desirability = static_cast<double>(sum);
+		_desirability = static_cast<double>(correct_classifications) / static_cast<double>(total_classifications);
 	}
 	
 	double get_desirability() const {
@@ -118,7 +124,7 @@ int main (int argc, char * const argv[]) {
 	std::vector<Optimization::AntColony::node_ptr> nodes;
 	std::vector<Optimization::AntColony::path_ptr> paths;
 	
-	int num_ants = 1000;
+	int num_ants = 10000;
 		   
 	nodes.push_back(Optimization::AntColony::node_ptr(new StartNode("Start")));	   
 	
@@ -150,7 +156,7 @@ int main (int argc, char * const argv[]) {
 	for(int i = 0; i < nodes.size(); i++) {
 		for(int j = 1; j < nodes.size(); j++) {
 			if(i != j) {
-				Optimization::AntColony::path_ptr p(new Optimization::AntColony::Path(nodes[j], 1, pow(num_ants, 2)));
+				Optimization::AntColony::path_ptr p(new Optimization::AntColony::Path(nodes[j], 1, num_ants));
 				nodes[i]->add_connection(p);
 				paths.push_back(p);				
 			}
