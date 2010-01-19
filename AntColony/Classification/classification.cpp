@@ -62,20 +62,33 @@ public:
 	void generate_desirability() {
 		std::vector<std::pair<int, int> >::iterator it = classifications.begin();
 		
-		int correct_classifications = 0;
-		int total_classifications = 0;
+		int true_pos = 0;
+		int false_neg = 0;
+		int true_neg = 0; 
+		int false_pos = 0;
 		
-		//of those who ARE classified as what we want, how many match this
+		//The quality of a rule is
+		// [TruePos / (TruePos + FalseNeg)] * [TrueNeg / (FalsePos + TrueNeg)]
 		for(it; it != classifications.end(); it++) {
-			if( (*_scorer)(it->first) ) {
-				if(it->second) {
-					correct_classifications = correct_classifications + 1;
-				}
-				total_classifications = total_classifications + 1;
+			bool b = (*_scorer)(it->first);
+			
+			if(b  && it->second) {
+				true_pos = true_pos + 1;
+			} else if (b && !it->second) {
+				false_pos = false_pos + 1;
+			} else if (!b && it->second) {
+				false_neg = false_neg + 1;
+			} else {
+				true_neg = true_neg + 1;
 			}
 		}
 		
-		_desirability = static_cast<double>(correct_classifications) / static_cast<double>(total_classifications);
+		double pos_ratio = static_cast<double>(true_pos) / (static_cast<double>(true_pos) + static_cast<double>(false_neg));
+		double neg_ratio = static_cast<double>(true_neg) / (static_cast<double>(false_pos) + static_cast<double>(true_neg));
+		
+		_desirability = pos_ratio * neg_ratio;
+		
+		std::cout << _id << " " << _desirability << std::endl;
 	}
 	
 	double get_desirability() const {
@@ -124,7 +137,7 @@ int main (int argc, char * const argv[]) {
 	std::vector<Optimization::AntColony::node_ptr> nodes;
 	std::vector<Optimization::AntColony::path_ptr> paths;
 	
-	int num_ants = 10000;
+	int num_ants = 5000;
 		   
 	nodes.push_back(Optimization::AntColony::node_ptr(new StartNode("Start")));	   
 	
@@ -165,7 +178,7 @@ int main (int argc, char * const argv[]) {
 		   	
 	// run the simulation
 	int num_steps = 1000;
-	Optimization::AntColony::simulate(num_ants, nodes[0], paths, num_steps, 0.001, 2.0, 1.0, 3.0);
+	Optimization::AntColony::simulate(num_ants, nodes[0], paths, num_steps, 0.001, 2.0, 1.0, 2.0);
 	
 	// drop an ant and follow where it goes to find 'optimal' path
 	Optimization::AntColony::ant_ptr a(new Optimization::AntColony::Ant(nodes[0]));
